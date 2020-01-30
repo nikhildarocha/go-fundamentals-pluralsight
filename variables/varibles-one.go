@@ -9,6 +9,7 @@ package main
 
 import (
 	"fmt"
+	"reflect"
 )
 
 var (
@@ -19,6 +20,6 @@ var (
 )
 
 func main () {
-	fmt.Println("Name is set to", name)
-	fmt.Println("Module is set to", module)
+	fmt.Println("Name is set to", name, "and is of type", reflect.TypeOf(name))
+	fmt.Println("Module is set to", module, "and is of type", reflect.TypeOf(module))
 }
