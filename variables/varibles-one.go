@@ -13,10 +13,10 @@ import (
 )
 
 var (
-	name string // Name of Subscriber
-	course string // Name of current course
-	module float64 // current place in course
-
+	//name string // Name of Subscriber
+	//course string // Name of current course
+	//module float64 // current place in course
+	name, course, module = "Nigel", "Docker Deep Dive", 3.2
 )
 
 func main () {
