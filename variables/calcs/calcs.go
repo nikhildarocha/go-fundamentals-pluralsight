@@ -11,7 +11,7 @@ func main() {
 
 	fmt.Println("\nA is type", reflect.TypeOf(a), "and B is of type", reflect.TypeOf(b))
 
-	c := a + b
+	c := int(a) + b
 
 	fmt.Println("\nC has value:", c, "and is of type:", reflect.TypeOf(c))
 }
