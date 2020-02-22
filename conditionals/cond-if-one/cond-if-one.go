@@ -9,6 +9,9 @@ func main() {
 
 	if firstRank, secondRank := 39, 614; firstRank < secondRank {
 		fmt.Println("\nFirst course is doing better than" + " than second course")
+		if firstRank > 100 {
+			fmt.Println("Might as well do a better job")
+		}
 	} else if firstRank > secondRank {
 		fmt.Println("Oh dear, your first course is absymall!")
 	} else {
